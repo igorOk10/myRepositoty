@@ -1,0 +1,1745 @@
+2014/03/14 18:22:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)' in /opt/lampp/htdocs/project3/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /opt/lampp/htdocs/project3/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(387): CDbConnection->init()
+#3 /opt/lampp/htdocs/project3/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/project3/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /opt/lampp/htdocs/project3/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /opt/lampp/htdocs/project3/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /opt/lampp/htdocs/project3/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /opt/lampp/htdocs/project3/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /opt/lampp/htdocs/project3/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/project3/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/project3/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=gii/default/index
+---
+2014/03/14 18:23:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)' in /opt/lampp/htdocs/project3/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /opt/lampp/htdocs/project3/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(387): CDbConnection->init()
+#3 /opt/lampp/htdocs/project3/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/project3/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /opt/lampp/htdocs/project3/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /opt/lampp/htdocs/project3/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /opt/lampp/htdocs/project3/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /opt/lampp/htdocs/project3/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /opt/lampp/htdocs/project3/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/project3/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/project3/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=gii/default/index
+---
+2014/03/14 19:09:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "TBGoods2".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('TBGoods2')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=TBGoods2
+---
+2014/03/15 12:08:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Tbreg".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('Tbreg')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=Tbreg
+HTTP_REFERER=http://localhost/project3/project3/
+---
+2014/03/15 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Tbreg".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('Tbreg')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=Tbreg
+HTTP_REFERER=http://localhost/project3/project3/
+---
+2014/03/15 12:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Tbreg".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('Tbreg')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=Tbreg
+HTTP_REFERER=http://localhost/project3/project3/
+---
+2014/03/15 12:15:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "tbReg/index".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbReg/index')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbReg/index
+---
+2014/03/15 12:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "TbReg/index".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('TbReg/index')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=TbReg/index
+---
+2014/03/15 12:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "TbReg".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('TbReg')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=TbReg
+---
+2014/03/15 12:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "tbReg".' in /opt/lampp/htdocs/project3/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbReg')
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbReg
+---
+2014/03/15 12:20:20 [error] [php] require(/opt/lampp/htdocs/project3/project3/protected/controllers/TbregController.php): failed to open stream: Отказано в доступе (/opt/lampp/htdocs/project3/framework/web/CWebApplication.php:354)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/project3/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/project3/index.php?r=Tbreg/index
+in /opt/lampp/htdocs/project3/project3/index.php (13)
+2014/03/15 15:20:55 [error] [exception.CException] exception 'CException' with message 'Псевдоним "bootstrap.components.Bootstrap" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /opt/lampp/htdocs/project3/framework/YiiBase.php:322
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /opt/lampp/htdocs/project3/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /opt/lampp/htdocs/project3/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /opt/lampp/htdocs/project3/framework/YiiBase.php(125): CApplication->__construct('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/project3/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/project3/project3/index.php(13): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#7 {main}
+REQUEST_URI=/project3/project3/index.php
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=tbgoods2/view&id=6
+---
+2014/03/15 15:21:30 [error] [exception.CException] exception 'CException' with message 'Неправильный алиас "bootstrap.components.Bootstrap". Убедитесь, что он указывает на существующую директорию или файл.' in /opt/lampp/htdocs/project3/framework/YiiBase.php:347
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /opt/lampp/htdocs/project3/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /opt/lampp/htdocs/project3/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /opt/lampp/htdocs/project3/framework/YiiBase.php(125): CApplication->__construct('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/project3/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/project3/project3/index.php(13): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#7 {main}
+REQUEST_URI=/project3/project3/index.php
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=tbgoods2/view&id=6
+---
+2014/03/15 15:37:04 [error] [exception.CException] exception 'CException' with message 'Неправильный алиас "bootstrap.components.Bootstrap". Убедитесь, что он указывает на существующую директорию или файл.' in /opt/lampp/htdocs/project3/framework/YiiBase.php:347
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /opt/lampp/htdocs/project3/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /opt/lampp/htdocs/project3/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /opt/lampp/htdocs/project3/framework/YiiBase.php(125): CApplication->__construct('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/project3/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/project3/project3/index.php(13): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#7 {main}
+REQUEST_URI=/project3/project3/index.php
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=tbgoods2/view&id=6
+---
+2014/03/15 15:46:10 [error] [exception.CException] exception 'CException' with message 'Псевдоним "bootstrap.components.Bootstrap" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /opt/lampp/htdocs/project3/framework/YiiBase.php:322
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /opt/lampp/htdocs/project3/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /opt/lampp/htdocs/project3/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /opt/lampp/htdocs/project3/framework/YiiBase.php(125): CApplication->__construct('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/project3/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/project3/project3/index.php(13): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#7 {main}
+REQUEST_URI=/project3/project3/index.php?r=Tbreg/index
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=site/index
+---
+2014/03/15 15:47:12 [error] [exception.CException] exception 'CException' with message 'Псевдоним "bootstrap.components.Bootstrap" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /opt/lampp/htdocs/project3/framework/YiiBase.php:322
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /opt/lampp/htdocs/project3/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /opt/lampp/htdocs/project3/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /opt/lampp/htdocs/project3/framework/YiiBase.php(125): CApplication->__construct('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/project3/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/project3/project3/index.php(13): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#7 {main}
+REQUEST_URI=/project3/project3/index.php?r=Tbreg/index
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=site/index
+---
+2014/03/15 15:48:14 [error] [exception.CException] exception 'CException' with message 'Псевдоним "bootstrap.components.Bootstrap" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /opt/lampp/htdocs/project3/framework/YiiBase.php:322
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /opt/lampp/htdocs/project3/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /opt/lampp/htdocs/project3/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /opt/lampp/htdocs/project3/framework/YiiBase.php(125): CApplication->__construct('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/project3/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/project3/project3/index.php(13): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#7 {main}
+REQUEST_URI=/project3/project3/index.php?r=Tbreg/index
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=site/index
+---
+2014/03/15 15:51:55 [error] [exception.CException] exception 'CException' with message 'Псевдоним "bootstrap.components.Bootstrap" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /opt/lampp/htdocs/project3/framework/YiiBase.php:322
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /opt/lampp/htdocs/project3/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/project3/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /opt/lampp/htdocs/project3/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /opt/lampp/htdocs/project3/framework/YiiBase.php(125): CApplication->__construct('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/project3/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/project3/project3/index.php(13): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#7 {main}
+REQUEST_URI=/project3/project3/
+---
+2014/03/15 16:58:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/project3/framework/web/CController.php:1118
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /opt/lampp/htdocs/project3/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/project3/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/project3/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/delete')
+#10 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbgoods2/delete&id=8
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=tbgoods2/admin
+---
+2014/03/15 16:58:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/project3/framework/web/CController.php:1118
+Stack trace:
+#0 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /opt/lampp/htdocs/project3/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/project3/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/project3/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/delete')
+#10 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbgoods2/delete&id=8
+HTTP_REFERER=http://localhost/project3/project3/index.php?r=tbgoods2/admin
+---
+2014/03/17 09:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php:157
+Stack trace:
+#0 /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php(55): Tbgoods2Controller->loadModel('1')
+#1 [internal function]: Tbgoods2Controller->actionView('1')
+#2 /opt/lampp/htdocs/project3/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Tbgoods2Controller), Array)
+#3 /opt/lampp/htdocs/project3/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Tbgoods2Controller), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/project3/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/project3/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/project3/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/view')
+#14 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbgoods2/view&id=1
+---
+2014/03/17 09:07:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php:157
+Stack trace:
+#0 /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php(55): Tbgoods2Controller->loadModel('1')
+#1 [internal function]: Tbgoods2Controller->actionView('1')
+#2 /opt/lampp/htdocs/project3/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Tbgoods2Controller), Array)
+#3 /opt/lampp/htdocs/project3/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Tbgoods2Controller), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/project3/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/project3/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/project3/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/view')
+#14 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbgoods2/view&id=1
+---
+2014/03/17 09:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php:157
+Stack trace:
+#0 /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php(55): Tbgoods2Controller->loadModel('1')
+#1 [internal function]: Tbgoods2Controller->actionView('1')
+#2 /opt/lampp/htdocs/project3/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Tbgoods2Controller), Array)
+#3 /opt/lampp/htdocs/project3/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Tbgoods2Controller), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/project3/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/project3/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/project3/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/view')
+#14 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbgoods2/view&id=1
+---
+2014/03/17 09:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php:157
+Stack trace:
+#0 /opt/lampp/htdocs/project3/project3/protected/controllers/Tbgoods2Controller.php(55): Tbgoods2Controller->loadModel('1')
+#1 [internal function]: Tbgoods2Controller->actionView('1')
+#2 /opt/lampp/htdocs/project3/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Tbgoods2Controller), Array)
+#3 /opt/lampp/htdocs/project3/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Tbgoods2Controller), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/project3/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/project3/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/project3/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/project3/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/project3/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /opt/lampp/htdocs/project3/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/view')
+#14 /opt/lampp/htdocs/project3/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/project3/index.php?r=tbgoods2/view&id=1
+---
+2014/03/17 14:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "../index".' in /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('../index')
+#1 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_projects/project3/index.php?r=../index
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php?r=tbgoods2/index
+---
+2014/03/17 14:50:19 [error] [php] Undefined variable: model (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:12)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(132): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (12)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (132)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 14:52:05 [error] [php] Undefined variable: model (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:12)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(132): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (12)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (132)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 15:15:56 [error] [php] Undefined variable: dataProvider (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:15)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(132): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (15)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (132)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 15:31:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2
+---
+2014/03/17 15:31:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2
+---
+2014/03/17 15:37:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2
+---
+2014/03/17 15:40:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2
+---
+2014/03/17 16:03:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2
+---
+2014/03/17 16:03:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2
+---
+2014/03/17 16:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "update.php".' in /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('update.php')
+#1 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_projects/project3/index.php/update.php?id=7
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2?browser=8
+---
+2014/03/17 16:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "update.php/7".' in /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('update.php/7')
+#1 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_projects/project3/index.php/update.php/7
+---
+2014/03/17 16:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "update.php".' in /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('update.php')
+#1 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_projects/project3/index.php/update.php
+---
+2014/03/17 16:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin".' in /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_projects/project3/index.php/admin
+---
+2014/03/17 16:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admibn".' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(270): CController->missingAction('admibn')
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('admibn')
+#2 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('Tbgoods2/admibn')
+#3 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2/admibn
+---
+2014/03/17 16:18:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/tbgoods2/
+---
+2014/03/17 16:36:26 [error] [php] Undefined variable: table (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:39)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(132): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (39)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (132)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 16:41:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/tbgoods2/
+---
+2014/03/17 16:42:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/tbgoods2/
+---
+2014/03/17 16:42:46 [error] [php] Undefined variable: row (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:26)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(132): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (26)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (132)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 16:43:41 [error] [php] Undefined variable: row (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:26)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(132): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (26)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (132)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 16:46:12 [error] [php] Undefined index: id (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:26)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(132): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (26)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (132)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 16:52:01 [error] [php] Undefined index: id (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:26)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(138): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2/
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (26)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (138)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 16:59:31 [error] [php] Undefined index: id (/opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php:26)
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(869): Tbgoods2Controller->renderFile()
+#1 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(782): Tbgoods2Controller->renderPartial()
+#2 /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php(138): Tbgoods2Controller->render()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/actions/CInlineAction.php(49): Tbgoods2Controller->actionIndex()
+#4 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): Tbgoods2Controller->runAction()
+#6 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): Tbgoods2Controller->filterAccessControl()
+#9 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): Tbgoods2Controller->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): Tbgoods2Controller->run()
+#13 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_projects/project3/index.php/Tbgoods2/
+in /opt/lampp/htdocs/yii_projects/project3/protected/views/tbgoods2/index.php (26)
+in /opt/lampp/htdocs/yii_projects/project3/protected/controllers/Tbgoods2Controller.php (138)
+in /opt/lampp/htdocs/yii_projects/project3/index.php (13)
+2014/03/17 17:00:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update...')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/4%3E
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2/
+---
+2014/03/17 17:01:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update...')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/4%3E
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2/
+---
+2014/03/17 17:01:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update...')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update/4%3E
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2/
+---
+2014/03/17 17:05:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/Tbgoods2
+---
+2014/03/17 17:33:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /opt/lampp/htdocs/yii_projects/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /opt/lampp/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('tbgoods2/update')
+#10 /opt/lampp/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/yii_projects/project3/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii_projects/project3/index.php/tbgoods2/update
+HTTP_REFERER=http://localhost/yii_projects/project3/index.php/tbgoods2/index
+---
+2014/03/18 14:19:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\apache\localhost\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\apache\localhost\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\apache\localhost\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\apache\localhost\www\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Comin))
+#7 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\apache\localhost\www\project3\protected\controllers\CominController.php(43): CActiveRecord->__construct()
+#9 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(49): CominController->actionCreate()
+#10 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/create')
+#20 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/project3/index.php/comin/create
+---
+2014/03/18 14:19:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'test3'' in C:\apache\localhost\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\apache\localhost\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\apache\localhost\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\apache\localhost\www\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Comin))
+#7 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\apache\localhost\www\project3\protected\controllers\CominController.php(43): CActiveRecord->__construct()
+#9 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(49): CominController->actionCreate()
+#10 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/create')
+#20 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/project3/index.php/comin/create
+---
+2014/03/18 14:33:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "viewAll".' in C:\apache\localhost\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\CController.php(270): CController->missingAction('viewAll')
+#1 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('viewAll')
+#2 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/viewAll')
+#3 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/project3/index.php/comin/viewAll
+---
+2014/03/19 11:21:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\apache\localhost\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\apache\localhost\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\apache\localhost\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\apache\localhost\www\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\apache\localhost\www\project3\protected\controllers\CominController.php(146): CActiveRecord->findAll('id > 0')
+#8 C:\apache\localhost\www\project3\protected\controllers\CominController.php(37): CominController->loadModel()
+#9 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(49): CominController->actionView()
+#10 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/view')
+#20 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/project3/index.php/comin/view
+HTTP_REFERER=http://localhost/project3/index.php
+---
+2014/03/19 11:22:26 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_reg.id_goods' in 'where clause'. Выполнявшийся SQL-запрос: SELECT tb_reg.id,name, code, type_t, qty
+				FROM tb_goods, tb_reg
+			    WHERE tb_goods.id=tb_reg.id_goods;.
+in C:\apache\localhost\www\project3\protected\models\TbReg.php (121)
+in C:\apache\localhost\www\project3\protected\controllers\TbregController.php (8)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 11:22:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_reg.id_goods' in 'where clause'. The SQL statement executed was: SELECT tb_reg.id,name, code, type_t, qty
+				FROM tb_goods, tb_reg
+			    WHERE tb_goods.id=tb_reg.id_goods;' in C:\apache\localhost\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\apache\localhost\www\project3\protected\models\TbReg.php(121): CDbCommand->queryAll()
+#2 C:\apache\localhost\www\project3\protected\controllers\TbregController.php(8): TbReg->viewTable()
+#3 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(49): TbregController->actionIndex()
+#4 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tbreg/index')
+#9 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/project3/index.php/Tbreg/index
+HTTP_REFERER=http://localhost/project3/index.php/comin/view
+---
+2014/03/19 11:25:42 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (46)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 11:25:42 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbReg.id_goods".' in C:\apache\localhost\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('id_goods', '1')
+#1 C:\apache\localhost\www\project3\protected\controllers\CominController.php(83): CActiveRecord->__set('id_goods', '1')
+#2 C:\apache\localhost\www\project3\protected\controllers\CominController.php(47): CominController->addReg('1', '2014:03:19 11:2...', '1000')
+#3 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(49): CominController->actionCreate()
+#4 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/create')
+#14 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/index.php/comin/create
+HTTP_REFERER=http://localhost/project3/index.php/comin/create
+---
+2014/03/19 11:26:18 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (46)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 11:26:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbReg.id_goods".' in C:\apache\localhost\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_goods')
+#1 C:\apache\localhost\www\yii\framework\validators\CRequiredValidator.php(58): CActiveRecord->__get('id_goods')
+#2 C:\apache\localhost\www\yii\framework\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(TbReg), 'id_goods')
+#3 C:\apache\localhost\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(TbReg), NULL)
+#4 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#5 C:\apache\localhost\www\project3\protected\controllers\CominController.php(88): CActiveRecord->save()
+#6 C:\apache\localhost\www\project3\protected\controllers\CominController.php(47): CominController->addReg('1', '2014:03:19 11:2...', '1000')
+#7 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(49): CominController->actionCreate()
+#8 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#17 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/create')
+#18 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/project3/index.php/comin/create
+HTTP_REFERER=http://localhost/project3/index.php/comin/create
+---
+2014/03/19 11:27:06 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (46)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 11:36:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date_document' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `tb_reg` `t` WHERE date_document = :date_document and id_goods = :id_goods LIMIT 1.
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (125)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (109)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 11:36:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date_document' in 'where clause'. The SQL statement executed was: SELECT * FROM `tb_reg` `t` WHERE date_document = :date_document and id_goods = :id_goods LIMIT 1' in C:\apache\localhost\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\apache\localhost\www\project3\protected\controllers\CominController.php(125): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\apache\localhost\www\project3\protected\controllers\CominController.php(109): CominController->updateReg(Object(Comin))
+#5 [internal function]: CominController->actionDelete('45')
+#6 C:\apache\localhost\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CominController), Array)
+#7 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CominController), Object(ReflectionMethod), Array)
+#8 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#17 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/delete')
+#18 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/project3/index.php/comin/delete/45
+HTTP_REFERER=http://localhost/project3/index.php/comin/view
+---
+2014/03/19 11:39:04 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. Выполнявшийся SQL-запрос: SELECT * FROM `tb_reg` `t` WHERE date_document = :date_document and goods_id = goods_id LIMIT 1.
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (125)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (109)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 11:39:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `tb_reg` `t` WHERE date_document = :date_document and goods_id = goods_id LIMIT 1' in C:\apache\localhost\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\apache\localhost\www\project3\protected\controllers\CominController.php(125): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\apache\localhost\www\project3\protected\controllers\CominController.php(109): CominController->updateReg(Object(Comin))
+#5 [internal function]: CominController->actionDelete('45')
+#6 C:\apache\localhost\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CominController), Array)
+#7 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CominController), Object(ReflectionMethod), Array)
+#8 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#17 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/delete')
+#18 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/project3/index.php/comin/delete/45
+HTTP_REFERER=http://localhost/project3/index.php/comin/view
+---
+2014/03/19 11:40:55 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date_document' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `tb_reg` `t` WHERE goods_id = :goods_id and date_document = :date_document LIMIT 1.
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (125)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (109)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 11:40:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date_document' in 'where clause'. The SQL statement executed was: SELECT * FROM `tb_reg` `t` WHERE goods_id = :goods_id and date_document = :date_document LIMIT 1' in C:\apache\localhost\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\apache\localhost\www\project3\protected\controllers\CominController.php(125): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\apache\localhost\www\project3\protected\controllers\CominController.php(109): CominController->updateReg(Object(Comin))
+#5 [internal function]: CominController->actionDelete('45')
+#6 C:\apache\localhost\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CominController), Array)
+#7 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CominController), Object(ReflectionMethod), Array)
+#8 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#17 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/delete')
+#18 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/project3/index.php/comin/delete/45
+HTTP_REFERER=http://localhost/project3/index.php/comin/view
+---
+2014/03/19 13:08:36 [error] [php] Undefined index: deleteComin (C:\apache\localhost\www\project3\protected\views\comin\viewAll.php:23)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\CController.php(869): CominController->renderFile()
+#1 C:\apache\localhost\www\yii\framework\web\CController.php(782): CominController->renderPartial()
+#2 C:\apache\localhost\www\project3\protected\controllers\CominController.php(37): CominController->render()
+#3 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(49): CominController->actionView()
+#4 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#6 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#12 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#13 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/view
+in C:\apache\localhost\www\project3\protected\views\comin\viewAll.php (23)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (37)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 13:24:20 [error] [php] Undefined index: deleteComin (C:\apache\localhost\www\project3\protected\controllers\CominController.php:107)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#7 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (107)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 13:28:36 [error] [php] Trying to get property of non-object (C:\apache\localhost\www\project3\protected\controllers\CominController.php:107)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#7 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (107)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 13:32:37 [error] [php] Undefined index: id (C:\apache\localhost\www\project3\protected\controllers\CominController.php:107)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#7 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (107)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 13:34:50 [error] [php] Undefined index: deleteComin (C:\apache\localhost\www\project3\protected\controllers\CominController.php:107)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#7 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (107)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:06:01 [error] [php] Undefined index: deleteComin (C:\apache\localhost\www\project3\protected\controllers\CominController.php:108)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#7 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (108)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:16:54 [error] [php] Undefined variable: id (C:\apache\localhost\www\project3\protected\controllers\CominController.php:113)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#7 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (113)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:28:29 [error] [php] Trying to get property of non-object (C:\apache\localhost\www\project3\protected\controllers\CominController.php:128)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#2 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#5 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#9 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (128)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (115)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:34:24 [error] [php] Trying to get property of non-object (C:\apache\localhost\www\project3\protected\controllers\CominController.php:133)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#2 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#5 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#8 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#9 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (133)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (115)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:42:36 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (46)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:43:34 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:50:29 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (46)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:50:51 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:50:51 [error] [php] Undefined variable: cominModel (C:\apache\localhost\www\project3\protected\controllers\CominController.php:113)
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#4 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#7 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#10 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#11 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/update/47
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (113)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (99)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:51:19 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:53:23 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:56:11 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:56:40 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "viewAll".' in C:\apache\localhost\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\web\CController.php(270): CController->missingAction('viewAll')
+#1 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('viewAll')
+#2 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/viewAll')
+#3 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/project3/index.php/comin/viewAll
+---
+2014/03/19 14:58:53 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:00:24 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:00:39 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (97)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:06:01 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (101)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:06:01 [error] [php] Cannot modify header information - headers already sent by (output started at C:\apache\localhost\www\project3\protected\controllers\CominController.php:99) (C:\apache\localhost\www\yii\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 C:\apache\localhost\www\project3\protected\controllers\CominController.php(105): CominController->redirect()
+#1 unknown(0): CominController->actionUpdate()
+#2 C:\apache\localhost\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#3 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CominController->runAction()
+#6 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CominController->filterAccessControl()
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\apache\localhost\www\yii\framework\web\CController.php(265): CominController->runActionWithFilters()
+#12 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CominController->run()
+#13 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\apache\localhost\www\project3\index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/update/47
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (105)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:06:31 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (101)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:10:38 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (98)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:10:52 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (98)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:11:00 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (98)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:11:19 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (98)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:11:19 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'date_t' at row 1. Выполнявшийся SQL-запрос: UPDATE `tb_reg` SET `id`=:yp0, `goods_id`=:yp1, `type_t`=:yp2, `date_t`=:yp3, `qty`=:yp4 WHERE `tb_reg`.`id`=43.
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (127)
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (99)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 15:11:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'date_t' at row 1. The SQL statement executed was: UPDATE `tb_reg` SET `id`=:yp0, `goods_id`=:yp1, `type_t`=:yp2, `date_t`=:yp3, `qty`=:yp4 WHERE `tb_reg`.`id`=43' in C:\apache\localhost\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\apache\localhost\www\yii\framework\db\ar\CActiveRecord.php(1124): CActiveRecord->updateByPk('43', Array)
+#2 C:\apache\localhost\www\project3\protected\controllers\CominController.php(127): CActiveRecord->update()
+#3 C:\apache\localhost\www\project3\protected\controllers\CominController.php(99): CominController->updateReg(Object(Comin), Object(Comin))
+#4 [internal function]: CominController->actionUpdate('47')
+#5 C:\apache\localhost\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CominController), Array)
+#6 C:\apache\localhost\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CominController), Object(ReflectionMethod), Array)
+#7 C:\apache\localhost\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\apache\localhost\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\apache\localhost\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\apache\localhost\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\apache\localhost\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\apache\localhost\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\apache\localhost\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\apache\localhost\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('comin/update')
+#17 C:\apache\localhost\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\apache\localhost\www\project3\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/project3/index.php/comin/update/47
+HTTP_REFERER=http://localhost/project3/index.php/comin/update/47
+---
+2014/03/19 15:11:46 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in C:\apache\localhost\www\project3\protected\controllers\CominController.php (98)
+in C:\apache\localhost\www\project3\index.php (13)
+2014/03/19 14:57:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CModule.php(387): CDbConnection->init()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(193): CActiveRecord->findAll('id > 0')
+#8 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(37): CominController->loadModel()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionView()
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#17 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('comin/view')
+#20 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /opt/lampp/htdocs/project3/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/project3/index.php/comin/view
+HTTP_REFERER=http://localhost/project3/index.php
+---
+2014/03/19 15:55:25 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 15:55:25 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbReg.goods_id".' in /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(161): CComponent->__set('goods_id', '4')
+#1 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(83): CActiveRecord->__set('goods_id', '4')
+#2 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(47): CominController->addReg('4', NULL, '3')
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionCreate()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('comin/create')
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/index.php/comin/create
+HTTP_REFERER=http://localhost/project3/index.php/comin/create
+---
+2014/03/19 15:55:48 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 15:55:48 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbReg.goods_id".' in /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(161): CComponent->__set('goods_id', '4')
+#1 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(83): CActiveRecord->__set('goods_id', '4')
+#2 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(47): CominController->addReg('4', NULL, '3')
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionCreate()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('comin/create')
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/project3/index.php/comin/create
+HTTP_REFERER=http://localhost/project3/index.php/comin/create
+---
+2014/03/19 15:56:46 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 15:56:46 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbReg.goods_id".' in /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('goods_id')
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('goods_id')
+#2 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(TbReg), 'goods_id')
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CModel.php(159): CValidator->validate(Object(TbReg), NULL)
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(88): CActiveRecord->save()
+#6 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(47): CominController->addReg('4', NULL, '3')
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionCreate()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#15 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#17 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('comin/create')
+#18 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /opt/lampp/htdocs/project3/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/project3/index.php/comin/create
+HTTP_REFERER=http://localhost/project3/index.php/comin/create
+---
+2014/03/19 16:06:19 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:06:19 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbReg.goods_id".' in /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('goods_id')
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('goods_id')
+#2 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(TbReg), 'goods_id')
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CModel.php(159): CValidator->validate(Object(TbReg), NULL)
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(88): CActiveRecord->save()
+#6 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(47): CominController->addReg('4', NULL, '3')
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionCreate()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#15 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#17 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('comin/create')
+#18 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /opt/lampp/htdocs/project3/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/project3/index.php/comin/create
+HTTP_REFERER=http://localhost/project3/index.php/comin/create
+---
+2014/03/19 16:08:27 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:20:58 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:20:59 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:27:11 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:27:22 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:30:57 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:31:04 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:31:20 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:33:06 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:37:14 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:38:43 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:40:38 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:43:36 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:43:44 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:45:36 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:46:18 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:46:28 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:46:59 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:47:11 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:47:36 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:52:54 [error] [php] Undefined index: deleteComin (/opt/lampp/htdocs/project3/protected/controllers/CominController.php:133)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CominController->runAction()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CominController->filterAccessControl()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CominController->runActionWithFilters()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CominController->run()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (133)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:55:47 [error] [php] Undefined variable: message (/opt/lampp/htdocs/project3/protected/views/comin/viewAll.php:10)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(869): CominController->renderFile()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(782): CominController->renderPartial()
+#2 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(153): CominController->render()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionDelete()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CominController->runAction()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CominController->filterAccessControl()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CominController->runActionWithFilters()
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CominController->run()
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in /opt/lampp/htdocs/project3/protected/views/comin/viewAll.php (10)
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (153)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:56:55 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/project3/protected/controllers/CominController.php:165)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CominController->runAction()
+#2 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CominController->filterAccessControl()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CominController->runActionWithFilters()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CominController->run()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (165)
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (142)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:58:07 [error] [php] Undefined variable: message (/opt/lampp/htdocs/project3/protected/views/comin/viewAll.php:10)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(869): CominController->renderFile()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(782): CominController->renderPartial()
+#2 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(180): CominController->render()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionIndex()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CominController->runAction()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CominController->filterAccessControl()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CominController->runActionWithFilters()
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CominController->run()
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/
+in /opt/lampp/htdocs/project3/protected/views/comin/viewAll.php (10)
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (180)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:58:34 [error] [php] Undefined variable: message (/opt/lampp/htdocs/project3/protected/views/comin/viewAll.php:10)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(869): CominController->renderFile()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(782): CominController->renderPartial()
+#2 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(180): CominController->render()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionIndex()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CominController->runAction()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CominController->filterAccessControl()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CominController->runActionWithFilters()
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CominController->run()
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/
+in /opt/lampp/htdocs/project3/protected/views/comin/viewAll.php (10)
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (180)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 16:58:35 [error] [php] Undefined variable: message (/opt/lampp/htdocs/project3/protected/views/comin/viewAll.php:10)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(869): CominController->renderFile()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(782): CominController->renderPartial()
+#2 /opt/lampp/htdocs/project3/protected/controllers/CominController.php(180): CominController->render()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CominController->actionIndex()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CominController->runAction()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CominController->filterAccessControl()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CominController->runActionWithFilters()
+#12 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CominController->run()
+#13 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/
+in /opt/lampp/htdocs/project3/protected/views/comin/viewAll.php (10)
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (180)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:04:49 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/project3/protected/controllers/CominController.php:165)
+Stack trace:
+#0 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CominController->runAction()
+#2 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CominController->filterAccessControl()
+#5 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CController.php(265): CominController->runActionWithFilters()
+#8 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CominController->run()
+#9 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/project3/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/project3/index.php(13): CWebApplication->run()
+REQUEST_URI=/project3/index.php/comin/delete
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (165)
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (142)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:08:01 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (98)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:08:55 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (98)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:09:07 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (98)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:23:22 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:23:55 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (98)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:26:34 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:27:19 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (46)
+in /opt/lampp/htdocs/project3/index.php (13)
+2014/03/19 17:27:26 [warning] [application] Не удалось присвоить небезопасный атрибут "text_note" класса "Comin".
+in /opt/lampp/htdocs/project3/protected/controllers/CominController.php (98)
+in /opt/lampp/htdocs/project3/index.php (13)
